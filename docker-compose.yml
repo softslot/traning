@@ -39,7 +39,7 @@ services:
     environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: 12345
-      POSTGRES_DB: soft-catalog
+      POSTGRES_DB: database
     ports:
       - "5435:5432"
 
